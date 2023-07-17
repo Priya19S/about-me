@@ -20,7 +20,8 @@ struct ContentView: View {
                     .padding(.leading)
                 Text("p r i y a")
                     .font(.largeTitle)
-                    .fontWeight(.light)
+                    .fontWeight(.ultraLight)
+                    .foregroundColor(Color.white)
                     .multilineTextAlignment(.leading)
                 Button(action: {showBio.toggle()})
                 {
